@@ -34,12 +34,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
     // Initialize the EditText and Button views
-val fullnameid = findViewById<EditText>(R.id.fullName)
-val emailid = findViewById<EditText>(R.id.inputEmail)
-val passwordid = findViewById<EditText>(R.id.inputPassword)
-val repasswordid = findViewById<EditText>(R.id.reinputPassword)
-val registerBtn = findViewById<Button>(R.id.registeraccBtn)
-val errmsg = findViewById<TextView>(R.id.errormsg) // Assuming you have an error message TextView
+  val fullnameid = findViewById<EditText>(R.id.fullName)
+  val emailid = findViewById<EditText>(R.id.inputEmail)
+  val passwordid = findViewById<EditText>(R.id.inputPassword)
+  val repasswordid = findViewById<EditText>(R.id.reinputPassword)
+  val registerBtn = findViewById<Button>(R.id.registeraccBtn)
+  val errmsg = findViewById<TextView>(R.id.errormsg) // Assuming you have an error message TextView
 
 // Set a click listener for the registration button
 registerBtn.setOnClickListener {
@@ -70,7 +70,7 @@ registerBtn.setOnClickListener {
         }
     }
 }
-
+'''
 Feel free to fork this repository and adapt the code for your specific needs.
 
 For questions or support, please contact [Your Name](mailto:youremail@example.com).

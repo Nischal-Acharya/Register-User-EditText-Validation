@@ -56,7 +56,7 @@ registerBtn.setOnClickListener {
         errmsg.text = "Confirm password is not valid!"
     } else {
         val emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
-        val passwordPattern = "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[!@#$%^&*])[A-Za-z\\d!@#$%^&*]{8,}$"
+        val passwordPattern = "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[\$@\$!%*?&])[A-Za-z\\d\$@\$!%*?&]{8,}$"
 
         if (!email.matches(emailPattern.toRegex())) {
             errmsg.setTextColor(forgotpassred)

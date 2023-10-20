@@ -33,11 +33,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This code is a basic example and should be extended and customized for a production application.
 
 ---
-   val fullname = fullnameid.text.toString()
-    val email = emailid.text.toString()
-    val password = passwordid.text.toString()
-    val repassword = repasswordid.text.toString()
-
+ 
     if (fullname == "" || email == "" || password == "" || repassword == "") {
         errmsg.setTextColor(forgotpassred)
         errmsg.text = "Please fill all the fields!"

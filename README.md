@@ -33,13 +33,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This code is a basic example and should be extended and customized for a production application.
 
 ---
-    // Initialize the EditText and Button views
-  val fullnameid = findViewById<EditText>(R.id.fullName)
-  val emailid = findViewById<EditText>(R.id.inputEmail)
-  val passwordid = findViewById<EditText>(R.id.inputPassword)
-  val repasswordid = findViewById<EditText>(R.id.reinputPassword)
-  val registerBtn = findViewById<Button>(R.id.registeraccBtn)
-  val errmsg = findViewById<TextView>(R.id.errormsg) // Assuming you have an error message TextView
+
 
 // Set a click listener for the registration button
 registerBtn.setOnClickListener {

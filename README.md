@@ -33,11 +33,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This code is a basic example and should be extended and customized for a production application.
 
 ---
-
-
-// Set a click listener for the registration button
-registerBtn.setOnClickListener {
-    val fullname = fullnameid.text.toString()
+   val fullname = fullnameid.text.toString()
     val email = emailid.text.toString()
     val password = passwordid.text.toString()
     val repassword = repasswordid.text.toString()
@@ -67,4 +63,4 @@ registerBtn.setOnClickListener {
 '''
 Feel free to fork this repository and adapt the code for your specific needs.
 
-For questions or support, please contact [Your Name](mailto:youremail@example.com).
+For questions or support, please contact [Your Name](mailto:nismsg1@gmail.com).

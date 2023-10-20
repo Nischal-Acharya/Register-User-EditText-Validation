@@ -59,4 +59,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 '''
 Feel free to fork this repository and adapt the code for your specific needs.
 
-For questions or support, please contact [Your Name](mailto:nismsg1@gmail.com).
+For questions or support, please contact [Nischal Acharya](mailto:nismsg1@gmail.com).
